@@ -12,19 +12,18 @@
 * minimap
     
 ## Networking
-    einfachster trottelcode -> siehe clemenz
-    connection = establish(connectionMitPortUndWasIchMirNochEinfallenLasseAlaUDPundTCP)
-    connection.send(data)
-    data = connection.receive()
-    connection.send_blocking(data)
-    data = connection.receive_blocking()
-    Architektur:
-    1 Server <-> mehrere Clients
-    Verantwortlichkeiten:
-    Client: 
-    Sound, UI, Grafikengine, Models, Pathing, Ressourcen
-    Server:
-    Maps,
+* einfachster trottelcode -> siehe clemenz
+```
+connection = establish(connectionMitPortUndWasIchMirNochEinfallenLasseAlaUDPundTCP)
+connection.send(data)
+data = connection.receive()
+connection.send_blocking(data)
+data = connection.receive_blocking()
+```
+* Architektur: 1 Server <-> mehrere Clients
+* Verantwortlichkeiten:
+** Client: Sound, UI, Grafikengine, Models, Pathing, Ressourcen
+** Server: Maps,
     
 ## Server
 * Ressourcen checken bzw transferieren
