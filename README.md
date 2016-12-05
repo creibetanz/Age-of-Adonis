@@ -74,3 +74,5 @@
 * pycharm
 * nilssu-san
 * blender -> egg files
+* Coding Guidelines: https://www.python.org/dev/peps/pep-0008/
+* default language: english (the adonis has spoken)
