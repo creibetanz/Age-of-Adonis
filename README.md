@@ -1,17 +1,17 @@
 # Age-of-Adonis
 
-Grafikengine
-    einfachste 3d engine die wir kriegen können
+## Grafikengine
+* einfachste 3d engine die wir kriegen können
     
-maps
-    random erzeugen
-    terrain bilder einfarbig
-    höhenunterschiede? -> zunächst nein
-    "matrizen" von terrain, pathing, wald/ressourcen, usw
-    grid - building, units frei
-    minimap
+## Maps
+* random erzeugen
+* terrain bilder einfarbig
+* höhenunterschiede? -> zunächst nein
+* "matrizen" von terrain, pathing, wald/ressourcen, usw
+* grid - building, units frei
+* minimap
     
-networking
+## Networking
     einfachster trottelcode -> siehe clemenz
     connection = establish(connectionMitPortUndWasIchMirNochEinfallenLasseAlaUDPundTCP)
     connection.send(data)
@@ -26,51 +26,51 @@ networking
     Server:
     Maps,
     
-server
-    Ressourcen checken bzw transferieren
-    fog of war verwaltung
+## Server
+* Ressourcen checken bzw transferieren
+* fog of war verwaltung
     
     
-units
-    balancing klauen
-    pathing
-    nils klauen -> A*
-    smooth genug + predictable + im combat einfach zu bedienen
-    keine schwulen verbände
-    Models
-    basic placeholder modelle
-    COMBAT
-    bisschen schneller als normales aoe
-    projektile?
-    long range siege nich so mega gay
+## Units
+* balancing klauen
+* pathing
+* nils klauen -> A*
+* smooth genug + predictable + im combat einfach zu bedienen
+* keine schwulen verbände
+* Models
+* basic placeholder modelle
+* COMBAT
+* bisschen schneller als normales aoe
+* projektile?
+* long range siege nich so mega gay
     
-buildings
-    Models
-    basic placeholder modelle
-    weniger häuser
-    burgen nich so übermächtig
+## Buildings
+* Models
+* basic placeholder modelle
+* weniger häuser
+* burgen nich so übermächtig
     
-Ressourcensystem
-    kann man erst ma klauen und dann ändern
+## Ressourcensystem
+* kann man erst ma klauen und dann ändern
     
-UI
-    klauen
-    minimap
+## UI
+* klauen
+* minimap
     
-client / menu
-    minimal
-    statistiken
+## Client / Menu
+* minimal
+* statistiken
     
-sound
-    keiner am anfang
+## Sound
+* keiner am anfang
     
-replays:
-    dann wanns in lol welche gibt
+## replays
+* dann wanns in lol welche gibt
     
-Tools:
-    python 3.4.3
-    github accounts machen
-    panda
-    pycharm
-    nilssu-san#
-    blender -> egg files
+## Tools
+* python 3.4.3
+* github accounts machen
+* panda
+* pycharm
+* nilssu-san
+* blender -> egg files
