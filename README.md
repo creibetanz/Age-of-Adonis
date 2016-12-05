@@ -68,7 +68,7 @@ replays:
     dann wanns in lol welche gibt
     
 Tools:
-    python 3
+    python 3.4.3
     github accounts machen
     panda
     pycharm
